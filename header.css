@@ -1,0 +1,123 @@
+*{
+    margin: 0; 
+    font-family: 'Josefin Sans', sans-serif;
+    border: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+}
+
+.add-first{
+    color: 20px;
+    margin-left: 3px;
+    font-family: poppins;
+}
+
+span{
+    color:#0d9ba5;
+    font-family: poppins;
+    font-size: 27px;
+    margin-left: 1px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    position: relative;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul li a:hover{
+    color:#29bcc7;
+    transition: .4s;
+}
+
+.btn-login{
+  background-color:#29bcc7;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+
+.btn-login:hover{
+  transform: scale(1.1);
+  background-color:#104b5a;
+}
+
+.btn-donate{
+    background-color:#29bcc7;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn-donate:hover{
+    transform: scale(1.1);
+    background-color:#104b5a;
+}
+
+.drop-down{
+    display: none;
+}
+nav ul li:hover .drop-down{
+    display: block;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 2px;
+    background-color: transparent;
+}
+
+.drop-down ul{
+    display: block;
+    margin: 3px;
+}
+
+.drop-down ul li{
+    width: 125px;
+    padding: 10px;
+}
+.drop-down2{
+    display: none;
+}
+
+nav ul li:hover .drop-down2{
+    display: block;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 2px;
+    background-color: transparent;
+}
+
+.drop-down2 ul{
+    display: block;
+    margin: 3px;
+}
+
